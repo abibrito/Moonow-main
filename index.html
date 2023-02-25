@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous" defer></script>
+  <style>
+    body{
+      background: linear-gradient(#0C0F07, #1F102B,#23193E);
+    }
+    ul li a{
+      color: #E0DAED;
+    }
+    h1{
+      color: #9F7FDB;
+    }
+    input{
+      background-color: #9F7FDB !important;
+      font: #FFFFFF !important;
+    }
+    .btn-primary{
+      background-color: #7834F3;
+    }
+    .btn-secondary{
+      background-color: #9F7FDB;
+    }
+    section form div input::placeholder{
+      color: #FFFFFF;
+    }
+  </style>
+  <title>Moonow</title>
+</head>
+<body>
+  <main>
+    <div class="d-flex justify-content-between align-items-center m-3">
+      <a class="navbar-brand">
+        <img src="/assets/img/logo.svg" alt="Bootstrap" width="150" height="125">
+      </a>
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active text-light" aria-current="page" href="#">QUEM SOMOS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">NOSSO PROPÓSITO</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#">SUPORTE</a>
+        </li>
+      </ul>
+    </div>
+  
+    <section class="d-flex justify-content-center align-items-center m-4">
+      <form >
+        <h1 class="fs-1 fw-bolder m-4">INSCREVA-SE E <br>VIAJE PARA A LUA <br>GRATUITAMENTE</h1>
+        <div class="m-3">
+          <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nome Completo">
+        </div>
+        <div class="m-3">
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
+        </div>
+        <button type="button" class="btn btn-primary btn-lg m-3">Quero ir pra lua!</button>
+        <button type="button" class="btn btn-secondary btn-lg m-3">Mais informações</button>
+      </form>
+      <div>
+        <img src="./assets/img/rocketMan.svg" alt="rocket man">
+      </div>
+    </section>
+  </main>
+</body>
+</html>
